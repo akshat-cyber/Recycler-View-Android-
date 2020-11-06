@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="150dp"
+    android:outlineAmbientShadowColor="@color/black"
+    >
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="189dp"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        android:textColor="@color/cardview_light_background"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="USER NAME"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/status"
+        android:background="@color/cardview_dark_background"
+        android:text="STATE : "
+        android:textColor="@color/cardview_light_background"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/user_name"
+        android:gravity="center" />
+</RelativeLayout>
